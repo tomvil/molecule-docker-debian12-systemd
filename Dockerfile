@@ -11,6 +11,7 @@ RUN apt-get update \
        dbus \
        cron \
        kmod \
+       ifupdown \
     && rm -rf /var/lib/apt/lists/* \
     && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
     && apt-get clean
